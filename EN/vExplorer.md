@@ -1,0 +1,135 @@
+# Description of the vExplorer #
+
+THe vExplorer visualizes the data, movements and changes inside the blockchain, nodes and the wallets.
+
+## Menu point &quot;Units&quot;: ##
+
+Under &quot;address" the recipient and sender address of the wallet are displayed.  
+&quot;Balance&quot; shows the amount of vUnits in the wallet.
+
+## Menu point &quot;Shares&quot;: ##
+
+Under &quot;address" the recipient and sender address of the wallet are displayed.  
+&quot;Balance&quot; shows the amount of vShares in the wallet (for the description, view the Whitepaper).
+
+## Menu point &quot;Parameters&quot;: ##
+
+### General -&gt; Global: ###
+
+Available soon.
+
+### Trusted Parties -&gt; Audit: ###
+
+Here the total cost (in vUnits) an audit for a certified authority (LCA, LE, LPMD and LD) are visible.
+
+### Emission -&gt; Parameters: ###
+
+*__&quot;Percentage of Emission as Security&quot;__*  
+shows the current amount (in percent) the LE has to deposit for an Emission.  
+If 10&#39;000 are emitted, the LE must, at that time, deposit a security amount of 500 vUnits (equals to 5%).  
+After the emission is completed, the LE gets back the deposit.
+
+*__&quot;Emission Voting Period&quot;__*  
+shows the maximum duration of the veto rights for vShares.  
+One block equals about 30 seconds, which currently equates to a maximum of 7 days.
+
+*__&quot;Emission Voting Threshold&quot;__*  
+shows how many vShares have to vote against an emission, so that the veto is valid and the emission is rejected.
+
+*__&quot;Emission Rules&quot;__*  
+describes the complete emission algorithm.
+
+### Voting -&gt; Parameters: ###
+
+*__&quot;Parameter Change Petition Period&quot;__*  
+displays how long an open petition can be voted for.  
+If the required percentage (currently 66%) is reached before, the petition goes over into the voting process.  
+In case the required amount is not reached by the time it is closed, it will be removed.
+
+*__&quot;Parameter Change Petition Threshold&quot;__*  
+shows the percentage of how many *PRO* votes of the vShares are required for the passing of the petition.
+
+*__&quot;Parameter Change Voting Period&quot;__*  
+shows the maximum duration the petition filed by the verified vWallet owners is open for until the votes are counted and accounted for.  
+One block equals about 30 seconds.
+
+*__&quot;Parameter Change Voting Threshold&quot;__*  
+
+shows the percentage of *PRO* voting vWallets required to pass a petition.
+
+## Menu point „Variables&quot;: ##
+
+### General -&gt; Global: ###
+
+*__&quot;Total Gold&quot;__*  
+shows the total amount of gold (in grams) in the vUnits blockchain.
+
+*__&quot;Total Units&quot;__*  
+shows the total amount of vUnits available in the vUnits blockchain.
+
+*__&quot;Total Shares&quot;__*  
+shows the total amount of vShares in the vUnits blockchain.
+
+*__&quot;Total Voters&quot;__*  
+shows the total amount of Voters vWallets in the vUnits blockchain.
+
+*__&quot;Total Units in Fund&quot;__*  
+shows the current amount of vUnits in the VUF fond.
+
+*__&quot;Total Units in Security&quot;__*  
+shows the current amount of vUnits held in safe deposits (deposits of LE).
+
+*__&quot;Total Units in Destruction&quot;__*  
+shows the total amount of vUnits currently in the process of being destroyed (vUnits being exchanged for gold).
+
+### Trusted Parties -&gt; Pending: ###
+
+Here, the requesting future certified authorities (such as LCA, LE, LPMD and LD) are shown, which want to be included in the blockchain by means of auditing and voting.  
+In addition to the name of the new potential parties, their fixed public blockchain address and the time, at which block the application for inclusion in the blockchain was made, are also displayed.
+
+### Trusted Parties -&gt; Confirmed: ###
+
+shows all the authorised parties (such as LCA, LE, LPMD and LD) and their information and time (block number) at which the community chose to let them join the blockchain. 
+
+### Emission (Units) -&gt; Variables: ###
+
+*__&quot;Last Emission on&quot;__*  
+shows the block of the last emission.
+
+*__&quot;Last Emission Price&quot;__*  
+shows the last emission price.
+
+*__&quot;Last Emission Units&quot;__*  
+shows the amount of vUnits of the last emission.
+
+*__&quot;Emission Adjustment Period until&quot;__*  
+shows the timeframe (in number of blocks) in which the emission price sinks from &quot;Emission Adjustment Start Price&quot; to &quot;Emission Adjustment End Price&quot;
+
+*__&quot;Emission Adjustment Start Price&quot;__*  
+shows the new price immediately after the last completed emission.
+
+*__&quot;Emission Adjustment End Price&quot;__*  
+shows the emission price after the *__&quot;Adjustment Period&quot;__* elapses.
+
+### Emission (Units) -&gt; Pending: ###
+
+Here, all the emissions that are currently being processed are shown.  
+Displayed are the target address, the addresses of all the involved LE, LPMD and LD, the amounts held in the safe deposit (LE deposit) as well as the maximum amount of gold and vUnits generated by the emission.
+Furthermore it shows all the information regarding with which block the emission was requested, the LPMD and LD signed it and it was completed. Additionally, it is possible to view the amount of blocks the veto of the vShare holders is valid for and how many vShares voted for / against it.
+
+### Emission (Units) -&gt; Completed: ###
+
+Same as *__&quot;Emission (Units) -&gt; Pending__*&quot; with the difference it lists only the completed emissions.
+
+### Emission (Shares) -&gt; Completed: ###
+
+Available soon.
+
+### Destruction (Units) -&gt; Pending/Completed: ###
+
+The amount of vUnits that are destroyed or are in the process of being destroyed.  
+Furthermore it shows the addresses of the vWallets and the LDs as well as the block number with which the destruction was initiated by the vWallet and confirmed by the LD.
+
+### Parameter Changes -&gt; Pending/Completed: ###
+
+here, all the pending and completed petitions regarding parameter changes are listed. The initiating address, the targeted parameter, the new value and up which block how many vShares and vWallets have to vote for or against the requested changes are also displayed.
