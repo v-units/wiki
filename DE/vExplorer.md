@@ -62,7 +62,7 @@ Gibt die gesamte Menge vUnits in der vUnits-Blockchain an.
 Gibt die gesamte Menge vShares in der vUnits-Blockchain an.
 
 *__&quot;Total Voters&quot;__*  
-Gibt die gesamte Anzahl Wahlberechtigter vWallets in der vUnit-Blockchain an.
+Gibt die gesamte Anzahl wahlberechtigter vWallets in der vUnit-Blockchain an.
 
 *__&quot;Total Units in Fund&quot;__*  
 Gibt die aktuelle Anzahl vUnits im VUF Fond an.
