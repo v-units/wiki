@@ -1,6 +1,6 @@
 # Description of the vExplorer #
 
-THe vExplorer visualizes the data, movements and changes inside the blockchain, nodes and the wallets.
+The vExplorer visualizes the data, movements and changes inside the blockchain, nodes and the wallets.
 
 ## Menu point &quot;Units&quot;: ##
 
